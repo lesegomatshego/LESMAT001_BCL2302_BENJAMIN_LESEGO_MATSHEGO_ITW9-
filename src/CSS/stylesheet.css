@@ -1,6 +1,16 @@
 header {
     background-image: url(../Images/backgroundimage.jpg);
     max-width: 100%;
-    font-style:italic;
-    color: lightpink;
+    font-family:'Times New Roman', Times, serif;
+    color: lightblue;
+    font-size: medium;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+}
+.item1 {
+    background-color:antiquewhite ;
+    
+
 }
