@@ -1,3 +1,6 @@
 header {
-    
+    background-image: url(../Images/backgroundimage.jpg);
+    max-width: 100%;
+    font-style:italic;
+    color: lightpink;
 }
