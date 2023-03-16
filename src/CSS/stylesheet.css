@@ -1,4 +1,5 @@
 header {
+
     background-image: url(../Images/backgroundimage.jpg);
     max-width: 100%;
     font-family:'Times New Roman', Times, serif;
@@ -9,8 +10,8 @@ header {
     padding-bottom: 5%;
     margin-top: 5%;
 }
-/* this is how i styled my menu (class item1)*/
 
+/* this is how i styled my menu (class item1)*/
 .item1 {
     background-color:rgb(231, 154, 52) ;
     width: 190px;
@@ -58,6 +59,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr min-content;
     background-color: azure;
+    gap: 20px;
     
 
 }
@@ -78,6 +80,7 @@ button {
     color: yellow;
     padding-left: 0%;
 }
+/*added a form to the footer*/
 footer{
     background-color: aquamarine;
     border: dotted;
@@ -86,3 +89,18 @@ footer{
     margin-right: 5%;
     padding-left: 5%;
 }
+/*code for mobile devices smaller than 60px*/
+a{ background-color: orchid;}
+ header {
+    image-orientation:url(../Images/small.jpg) ;
+    font-size: small;
+ }
+/*medium devices (landscape tablets,768 px and up) */
+@media only screen and (min-width: 768px) {
+    header{
+        image-orientation: url(.jpg);
+    }
+}
+    
+}
+
