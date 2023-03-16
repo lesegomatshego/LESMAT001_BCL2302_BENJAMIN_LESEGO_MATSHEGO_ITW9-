@@ -12,7 +12,7 @@ header {
 /* this is how i styled my menu (class item1)*/
 
 .item1 {
-    background-color:antiquewhite ;
+    background-color:rgb(231, 154, 52) ;
     width: 190px;
     height: fit-content;
     text-align: left;
@@ -57,6 +57,7 @@ button {
 .grid-wrapper{
     display: grid;
     grid-template-columns: max-content;
+    color: black;
 }
 
  /*added grid to my items*/   
@@ -67,7 +68,7 @@ button {
 }
 .item3 {
     width: auto;
-    color: brown;
+    color:  black;
     padding: 1rem;
 }
 .item3 {
