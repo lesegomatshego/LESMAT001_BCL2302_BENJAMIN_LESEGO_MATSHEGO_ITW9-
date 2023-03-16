@@ -97,11 +97,11 @@ footer{
 /*code for mobile devices smaller than 60px*/
 a{ background-color: orchid;}
  header {
-    image-orientation:url(../Images/small.jpg) ;
-    font-size: small;}
+    image-orientation:url(../Images/small.jpg) ;}
     .grid-container{
-        font-size:7px;
+     font-size: small;
     }
+    
 
  
 /*medium devices (landscape tablets,768 px and up) */
@@ -111,6 +111,7 @@ a{ background-color: orchid;}
     a {background-color: olive;}
  .grid-container {
     font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width :992px) {
