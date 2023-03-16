@@ -48,4 +48,31 @@ button {
 .container{
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content:space-around ;
+    background-color: blueviolet;
+    border-radius: 10%;
+    border-style: groove;
 }
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+ /*added grid to my items*/   
+.item2 {
+     width: auto;
+    color: bisque;
+    padding: 1rem;
+}
+.item3 {
+    width: auto;
+    color: brown;
+    padding: 1rem;
+}
+.item3 {
+    width: auto;
+    color: yellow;
+    padding: 1rem;
+}
+
