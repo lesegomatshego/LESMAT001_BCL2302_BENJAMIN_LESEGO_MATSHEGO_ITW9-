@@ -25,7 +25,7 @@ header {
     font-size: 20px;
     float: left;
 }
-a {background-color: aqua;
+a {background-color:red;
 color: black;
 }
 
@@ -68,7 +68,7 @@ button {
 }
 .item3 {
     width: auto;
-    color:  black;
+    color: black;
     padding: 1rem;
 }
 .item3 {
@@ -76,4 +76,11 @@ button {
     color: yellow;
     padding: 1rem;
 }
-
+footer{
+    background-color: aquamarine;
+    border: dotted;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+}
