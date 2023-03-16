@@ -54,27 +54,29 @@ button {
     border-radius: 10%;
     border-style: groove;
 }
-.grid-wrapper{
+.grid-container{
     display: grid;
-    grid-template-columns: max-content;
-    color: black;
+    grid-template-columns: 1fr 1fr 1fr min-content;
+    background-color: azure;
+    
+
 }
 
  /*added grid to my items*/   
 .item2 {
      width: auto;
     color: bisque;
-    padding: 1rem;
+    padding-left: 0%;
 }
 .item3 {
     width: auto;
     color: black;
-    padding: 1rem;
+    padding-left: 0%;
 }
-.item3 {
+.item4 {
     width: auto;
     color: yellow;
-    padding: 1rem;
+    padding-left: 0%;
 }
 footer{
     background-color: aquamarine;
